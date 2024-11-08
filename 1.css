@@ -54,3 +54,31 @@ main {
     align-items: center;
     margin-bottom: 40px;
 }
+.hero h1 {
+    font-size: 3rem;
+    font-family: 'Poppins', sans-serif;
+}
+
+.hero p {
+    font-size: 1.2rem;
+}
+
+.hero-image {
+    max-width: 50%;
+    border-radius: 8px;
+}
+
+.about {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+.about h2 {
+    font-size: 2rem;
+}
+
+.about-image {
+    max-width: 40%;
+    border-radius: 8px;
+}
