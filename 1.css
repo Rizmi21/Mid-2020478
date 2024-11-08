@@ -23,3 +23,34 @@ header nav ul li {
     display: inline;
     margin: 0 15px;
 }
+header nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+header nav ul li a:hover {
+    color: #ff6600;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #0c3fe7;
+    color: white;
+}
+
+main {
+    padding: 40px 20px;
+    max-width: 1200px;
+    margin: auto;
+}
+
+/* Home Page */
+.home .hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 40px;
+}
